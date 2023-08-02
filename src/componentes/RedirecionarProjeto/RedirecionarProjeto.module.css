@@ -1,0 +1,9 @@
+
+
+.containerBotoes {
+    margin-top: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}

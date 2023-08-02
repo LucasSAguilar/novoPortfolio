@@ -4,6 +4,7 @@ import PostModelo from "componentes/PostModelo";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import "./Post.css"
 import NaoEncontrada from "paginas/NaoEncontrada";
+import RedirecionarProjeto from "componentes/RedirecionarProjeto";
 
 export default function Post(){
 
@@ -27,6 +28,7 @@ export default function Post(){
                 {post.texto}
             </ReactMarkdown>
             </div>
+            <RedirecionarProjeto codigo={post.codigo} site={post.pagina}/>
         </PostModelo>
     )
 }

@@ -5,9 +5,9 @@
 }
 
 :root {
-  --azul-escuro: #041833;
+  --azul-escuro: #002454;
   --azul-medio: #1875E8;
-  --cor-fonte-principal: #041833;
+  --cor-fonte-principal: #002454;
   --cor-fonte-post: #444444;
   --branco: #FFF;
   --fonte-principal: 'Raleway', sans-serif;
@@ -26,6 +26,10 @@
 a, button, input, textarea {
   font: inherit;
   color: inherit;
+}
+
+body {
+  background-color: #302D2D;
 }
 
 button {

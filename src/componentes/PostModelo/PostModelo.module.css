@@ -1,5 +1,5 @@
 .postModeloContainer {
-    color: var(--cor-fonte-post);
+    color: #fff;
     position: relative;
 }
 
@@ -12,10 +12,11 @@
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.3;
+    opacity: 0.8;
     position: absolute;
     top: 0;
     z-index: -1;
+    background-color: #fff;
 }
 
 .titulo {

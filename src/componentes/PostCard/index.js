@@ -3,11 +3,24 @@ import styles from './Post.module.css';
 import BotaoPrincipal from 'componentes/BotaoPrincipal';
 
 export default function PostCard({ post }) {
+    
+    const arrastarTelaParaTopo = () => {
+
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
+
+    }
+
     return (
 
 
         <Link to={`/posts/${post.id}`}>
-        <div className={styles.post}>
+        <div 
+            className={styles.post}
+            onClick={()=> arrastarTelaParaTopo()}
+            >
             <img
                 className={styles.capa}
                 src={`/assets/posts/${post.id}/capa.png`}
