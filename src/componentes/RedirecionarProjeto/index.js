@@ -7,15 +7,20 @@ export default function RedirecionarProjeto ({codigo, site}){
         window.open(url, "_blank")
     }
 
+ 
 
     return (
-        <div className={styles.containerBotoes}>
-            <BotaoPrincipal onClick={()=> redirecionarParaSite(site)}>
-                Ver o projeto
-            </BotaoPrincipal>
-            <BotaoPrincipal onClick={()=> redirecionarParaSite(codigo)}>
-                Abrir repositório
-            </BotaoPrincipal>
-        </div>
+        <div className={codigo === "" ? styles.containerBotoesHidden : styles.containerBotoes}>
+        {codigo !== "" && (
+            <>
+                <BotaoPrincipal onClick={() => redirecionarParaSite(site)}>
+                    Ver o projeto
+                </BotaoPrincipal>
+                <BotaoPrincipal onClick={() => redirecionarParaSite(codigo)}>
+                    Abrir repositório
+                </BotaoPrincipal>
+            </>
+        )}
+    </div>
     )
 }

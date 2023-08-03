@@ -40,6 +40,12 @@
     width: 25vw;
 }
 
+.containerIcones {
+    width: 80%;
+    gap: 20px;
+    display: flex;
+}
+
 @media (max-width: 1100px) {    
     .banner {
         padding: 3.5rem 1.5rem;
