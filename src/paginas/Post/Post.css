@@ -54,6 +54,13 @@
     overflow-x: auto;
 }
 
+.post-markdown-container pre, .post-markdown-container blockquote {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
 @media (max-width: 1100px) {
     .post-markdown-container p {
         margin-bottom: 2rem;

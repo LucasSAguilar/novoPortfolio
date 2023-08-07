@@ -11,10 +11,10 @@ export default function Banner (){
                 <p className={styles.paragrafo}>Boas vindas ao meu espaço pessoal! Eu sou Lucas Aguilar, desenvolvedor front-end. Aqui apresento meus trabalhos e compartilho vários conhecimentos, espero que aprenda algo novo</p>
      
         <div className={styles.containerIcones}>
-            <IconeRedeSocial  imagem={"/assets/icons/github.png"} link={"https://github.com/LucasSAguilar"}/>
-            <IconeRedeSocial  imagem={"/assets/icons/linkedin.png"} link={"https://www.linkedin.com/in/lucasaguilardesenvolvedor/"}/>
-            <IconeRedeSocial  imagem={"/assets/icons/instagram.png"} link={"https://www.instagram.com/lucass_aguillar/"}/>
-            <IconeRedeSocial  imagem={"/assets/icons/email.png"} link={"email"}/>
+            <IconeRedeSocial  imagem={"/assets/icons/github.png"}  alt="icone do github" link={"https://github.com/LucasSAguilar"}/>
+            <IconeRedeSocial  imagem={"/assets/icons/linkedin.png"} alt="icone do linkedin" link={"https://www.linkedin.com/in/lucasaguilardesenvolvedor/"}/>
+            <IconeRedeSocial  imagem={"/assets/icons/instagram.png"} alt="icone do instagram" link={"https://www.instagram.com/lucass_aguillar/"}/>
+            <IconeRedeSocial  imagem={"/assets/icons/email.png"} alt="icone do email" link={"email"}/>
         </div>
             </div>
 
