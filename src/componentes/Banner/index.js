@@ -8,7 +8,7 @@ export default function Banner (){
         <div className={styles.banner}>
             <div className={styles.apresentacao}>
                 <h1 className={styles.titulo}>Olá, mundo!</h1>
-                <p className={styles.paragrafo}>Boas vindas ao meu espaço pessoal! Eu sou Lucas Aguilar, desenvolvedor front-end. Aqui apresento meus trabalhos e compartilho vários conhecimentos, espero que aprenda algo novo</p>
+                <p className={styles.paragrafo}>Boas vindas ao meu espaço pessoal! Eu sou Lucas Aguilar, desenvolvedor fullstack. Aqui apresento meus trabalhos e compartilho vários conhecimentos, espero que aprenda algo novo</p>
      
         <div className={styles.containerIcones}>
             <IconeRedeSocial  imagem={"/assets/icons/github.png"}  alt="icone do github" link={"https://github.com/LucasSAguilar"}/>
