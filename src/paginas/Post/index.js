@@ -28,7 +28,7 @@ export default function Post(){
                 {post.texto}
             </ReactMarkdown>
             </div>
-            <RedirecionarProjeto codigo={post.codigo} site={post.pagina}/>
+            <RedirecionarProjeto codigo={post.codigo} site={post.pagina} video={post.video}/>
         </PostModelo>
     )
 }
